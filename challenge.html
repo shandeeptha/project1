@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt Challenge 2026</title>
+
+<link rel="stylesheet" href="challenge.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🤖 AI PROMPT CHALLENGE 2026</h1>
+
+<h2>Select Any ONE Challenge</h2>
+
+<div class="cards">
+
+<div class="card">
+<label>
+<input type="radio" name="task" value="Design a Poster" onclick="startTimer()">
+<h3>🎨 Design a Poster</h3>
+<p>Create an attractive poster using AI tools.</p>
+</label>
+</div>
+
+<div class="card">
+<label>
+<input type="radio" name="task" value="Create a Logo" onclick="startTimer()">
+<h3>🖌 Create a Logo</h3>
+<p>Design a professional logo using AI.</p>
+</label>
+</div>
+
+<div class="card">
+<label>
+<input type="radio" name="task" value="Reverse Engineering" onclick="startTimer()">
+<h3>🔍 Reverse Engineering</h3>
+<p>Analyze and recreate the given design.</p>
+</label>
+</div>
+
+<div class="card">
+<label>
+<input type="radio" name="task" value="Build a Website" onclick="startTimer()">
+<h3>💻 Build a Website</h3>
+<p>Create a simple responsive webpage.</p>
+</label>
+</div>
+
+</div>
+
+<div id="timer">
+20:00
+</div>
+
+<div id="tools">
+
+<h2>AI Tools</h2>
+
+<a href="https://chat.openai.com" target="_blank">
+<button>ChatGPT</button>
+</a>
+
+<a href="https://www.midjourney.com" target="_blank">
+<button>Midjourney</button>
+</a>
+
+<a href="https://www.canva.com" target="_blank">
+<button>Canva</button>
+</a>
+
+<br><br>
+
+<label><b>Submission Link</b></label><br><br>
+
+<input
+type="text"
+id="link"
+placeholder="Paste your Canva / ChatGPT / Website link here">
+
+<br><br>
+
+<button class="submit" onclick="submitChallenge()">
+Submit Project
+</button>
+
+</div>
+
+</div>
+
+<script src="challenge.js"></script>
+
+</body>
+</html>
