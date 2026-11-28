@@ -1,4 +1,3 @@
-
 function startChallenge() {
     const id = document.getElementById("playerid").value.trim();
     const name = document.getElementById("playername").value.trim();
