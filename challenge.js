@@ -1,4 +1,3 @@
-
 let timerStarted = false;
 let totalTime = 20 * 60;
 let timer = null;
